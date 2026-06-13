@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marquee Reader — The RSS reader for Apple TV</title>
+  <meta name="description" content="Marquee Reader is a beautiful, private RSS reader for Apple TV — with a Spritz-style speed-reading mode, gorgeous typography, and a companion iPhone app." />
+  <meta name="theme-color" content="#14171c" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Marquee Reader — The RSS reader for Apple TV" />
+  <meta property="og:description" content="Read the web from your couch. A beautiful, private RSS reader for Apple TV, with a Spritz-style speed-reading mode and an iPhone companion." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Marquee Reader — The RSS reader for Apple TV" />
+  <meta name="twitter:description" content="Read the web from your couch. A beautiful, private RSS reader for Apple TV." />
+  <meta name="twitter:image" content="assets/og-image.png" />
+
+  <link rel="icon" type="image/png" href="assets/favicon-180.png" />
+  <link rel="apple-touch-icon" href="assets/favicon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <!-- ───────────────────────── Nav ───────────────────────── -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="Marquee Reader home">
+        <img src="assets/marquee-logo.svg" alt="" class="brand__mark" width="48" height="30" />
+        <span class="brand__name">Marquee&nbsp;Reader</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#speed">Speed Reading</a>
+        <a href="#reading">Reading</a>
+        <a href="#features">Features</a>
+        <a href="#companion">Companion</a>
+      </nav>
+      <span class="nav__badge">tvOS&nbsp;17+</span>
+    </div>
+  </header>
+
+  <!-- ───────────────────────── Hero ───────────────────────── -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <p class="eyebrow reveal">Built for Apple&nbsp;TV</p>
+      <h1 class="hero__title reveal">Read the web<br />from your couch.</h1>
+      <p class="hero__sub reveal">
+        Marquee Reader turns your Apple&nbsp;TV into a calm, beautiful place to follow your
+        favorite sites — with gorgeous typography, a one-word-at-a-time speed-reading
+        mode, and an iPhone companion to pocket anything for later.
+      </p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="#speed">See speed reading</a>
+        <a class="btn btn--ghost" href="#features">Explore features</a>
+      </div>
+      <div class="hero__shot reveal">
+        <div class="shot shot--glow">
+          <img src="assets/screenshots/dashboard.png" alt="Marquee Reader dashboard on Apple TV showing unread counts and recent activity" loading="eager" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────── Feature trio ───────────────────── -->
+  <section class="trio container">
+    <div class="trio__card reveal">
+      <div class="trio__icon" aria-hidden="true">⚡️</div>
+      <h3>Speed reading, built in</h3>
+      <p>Stream an article one word at a time with the optimal-recognition-point letter highlighted. Read faster without lifting a finger.</p>
+    </div>
+    <div class="trio__card reveal">
+      <div class="trio__icon" aria-hidden="true">✺</div>
+      <h3>Made for the remote</h3>
+      <p>Every screen is designed around the Siri Remote — swipe to browse, click to read, hold to share. No keyboard gymnastics.</p>
+    </div>
+    <div class="trio__card reveal">
+      <div class="trio__icon" aria-hidden="true">🔒</div>
+      <h3>Private by design</h3>
+      <p>Your feeds live on your Apple&nbsp;TV. No account, no tracking, no ads — sync to your own devices through iCloud, and nothing else.</p>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Speed Reading spotlight ─────────────────── -->
+  <section class="feature feature--alt" id="speed">
+    <div class="container feature__inner">
+      <div class="feature__media reveal">
+        <div class="shot">
+          <img src="assets/screenshots/rsvp-recognition.png" alt="Speed-reading mode showing a single word with its key letter highlighted in red" />
+        </div>
+        <div class="shot shot--inset">
+          <img src="assets/screenshots/rsvp-the.png" alt="Speed-reading mode with words-per-minute and a progress bar" />
+        </div>
+      </div>
+      <div class="feature__text reveal">
+        <p class="eyebrow">Speed Reading</p>
+        <h2>One word at a time.<br />A whole article in minutes.</h2>
+        <p>
+          Engage speed-reading mode and the article streams to the center of the screen,
+          one word at a time. Each word's <strong>Optimal Recognition Point</strong> is
+          highlighted in amber and pinned to a fixed reticle, so your eyes never move —
+          the part that normally eats most of your reading time.
+        </p>
+        <ul class="ticks">
+          <li>Dial the pace from a calm 100 up to 900 words per minute</li>
+          <li>Swipe up or down on the remote to change speed live</li>
+          <li>Skip or rewind by sentence; pause to see the words around you</li>
+          <li>Smart pauses on commas and full stops keep meaning intact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Reading experience ─────────────────── -->
+  <section class="feature" id="reading">
+    <div class="container feature__inner">
+      <div class="feature__text reveal">
+        <p class="eyebrow">A reader you'll want to look at</p>
+        <h2>Typography worthy of the big screen.</h2>
+        <p>
+          Articles are rendered natively — headings, pull quotes, code, lists and inline
+          images all laid out for a TV, not crammed into a web view. Pick the look that
+          suits the room and settle in.
+        </p>
+        <ul class="ticks">
+          <li>Four typefaces: System, Serif, Avenir and Casual</li>
+          <li>Four themes: Dark, Black, Sepia and Light</li>
+          <li>Five text sizes, from Small to Huge</li>
+          <li>Inline images, plus audio and video playback</li>
+        </ul>
+      </div>
+      <div class="feature__media reveal">
+        <div class="shot">
+          <img src="assets/screenshots/reader.png" alt="An article open in Marquee Reader with an inline image and body text" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Browse / stay current ─────────────────── -->
+  <section class="feature feature--alt">
+    <div class="container feature__inner">
+      <div class="feature__media reveal">
+        <div class="shot">
+          <img src="assets/screenshots/articles.png" alt="The unread list showing recent articles from across all feeds" />
+        </div>
+      </div>
+      <div class="feature__text reveal">
+        <p class="eyebrow">Always up to date</p>
+        <h2>Everything new, at a glance.</h2>
+        <p>
+          A dashboard greets you with what's unread, what arrived today, and how your feeds
+          are doing. Marquee fetches politely in the background — honoring each feed's
+          cache and back-off rules — so it's quietly current whenever you sit down.
+        </p>
+        <ul class="ticks">
+          <li>Unread, Today, This&nbsp;Week and per-feed counts</li>
+          <li>A screensaver of rotating headlines and a clock</li>
+          <li>Conditional fetches that respect each site's schedule</li>
+          <li>Mark all read, star, and jump between articles instantly</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Companion app ─────────────────── -->
+  <section class="feature" id="companion">
+    <div class="container feature__inner">
+      <div class="feature__text reveal">
+        <p class="eyebrow">Marquee for iPhone</p>
+        <h2>Send any story to your pocket.</h2>
+        <p>
+          Found something you'd rather read on the move? Send it to your iPhone in a tap.
+          The free companion app keeps an inbox of everything you've pushed from the TV —
+          and quietly keeps your subscriptions in sync, both ways.
+        </p>
+        <ul class="ticks">
+          <li>"Send to iPhone" — over iCloud, or scan a QR code on any phone</li>
+          <li>A push notification and a tidy inbox of saved articles</li>
+          <li>Add a feed on either device; it shows up on the other</li>
+          <li>No sign-up — it rides on your own iCloud account</li>
+        </ul>
+      </div>
+      <div class="feature__media reveal">
+        <div class="shot shot--phone">
+          <img src="assets/icon-1024.png" alt="Marquee Reader app icon" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Full feature grid ─────────────────── -->
+  <section class="features container" id="features">
+    <h2 class="section-title reveal">Everything in the box</h2>
+    <div class="grid">
+      <div class="grid__item reveal"><h4>RSVP speed reading</h4><p>Spritz-style word streaming with an ORP highlight, 100–900&nbsp;WPM, and sentence seek.</p></div>
+      <div class="grid__item reveal"><h4>Native rendering</h4><p>Headings, quotes, code blocks, lists and images laid out for the TV — no web view.</p></div>
+      <div class="grid__item reveal"><h4>Feed auto-discovery</h4><p>Paste a site's address and Marquee finds the feed for you.</p></div>
+      <div class="grid__item reveal"><h4>OPML import</h4><p>Bring your whole subscription list over from any other reader in one go.</p></div>
+      <div class="grid__item reveal"><h4>Folders &amp; search</h4><p>Group feeds into folders and find anything with keyword search.</p></div>
+      <div class="grid__item reveal"><h4>Themes &amp; type</h4><p>Four typefaces, four themes and five text sizes to match any room.</p></div>
+      <div class="grid__item reveal"><h4>Polite syncing</h4><p>Conditional GETs, cache-control awareness and error back-off — easy on every server.</p></div>
+      <div class="grid__item reveal"><h4>Media playback</h4><p>Inline images plus podcast audio and video, right inside the reader.</p></div>
+      <div class="grid__item reveal"><h4>Screensaver</h4><p>Rotating headlines and a clock keep the room alive while you're away.</p></div>
+      <div class="grid__item reveal"><h4>iPhone companion</h4><p>Send articles to your phone and keep subscriptions in sync, both ways.</p></div>
+      <div class="grid__item reveal"><h4>On-device storage</h4><p>Your library lives on the Apple&nbsp;TV — no servers, no accounts.</p></div>
+      <div class="grid__item reveal"><h4>iCloud sync</h4><p>Device-to-device sync runs on your own iCloud — private and yours.</p></div>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Privacy callout ─────────────────── -->
+  <section class="callout">
+    <div class="container callout__inner reveal">
+      <h2>No accounts. No tracking. No ads.</h2>
+      <p>
+        Marquee Reader doesn't have a backend. It keeps your feeds and articles on your
+        Apple&nbsp;TV, and uses your own iCloud only to talk to your iPhone. The web,
+        the way it was meant to be — quietly yours.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─────────────────── Footer ─────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/marquee-logo.svg" alt="" width="40" height="25" />
+        <span>Marquee Reader</span>
+      </div>
+      <p class="footer__note">
+        Designed for Apple&nbsp;TV. Not affiliated with Apple Inc.<br />
+        Apple&nbsp;TV, Apple&nbsp;TV&nbsp;4K, iPhone, tvOS and iCloud are trademarks of Apple&nbsp;Inc.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
