@@ -6,6 +6,13 @@
   var els = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
   if (!els.length) return;
 
+  // Respect prefers-reduced-motion: reveal everything immediately, no scroll
+  // animation, and skip the geometry listeners entirely.
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    els.forEach(function (el) { el.classList.add("is-in"); });
+    return;
+  }
+
   function check() {
     var vh = window.innerHeight || document.documentElement.clientHeight;
     els = els.filter(function (el) {
