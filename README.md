@@ -1,4 +1,4 @@
-# Marquee Reader — marketing site
+# Marquee Reader: marketing site
 
 The landing page for **Marquee Reader**, a beautiful, private RSS reader for Apple TV
 with a Spritz-style speed-reading mode and an iPhone companion app.
@@ -7,7 +7,7 @@ with a Spritz-style speed-reading mode and an iPhone companion app.
 
 ## What's here
 
-A single-page static site — no build step, no dependencies.
+A single-page static site with no build step or dependencies.
 
 ```
 .
@@ -24,7 +24,7 @@ A single-page static site — no build step, no dependencies.
 
 ## Developing
 
-It's plain HTML/CSS/JS — open `index.html` in a browser, or serve the folder:
+It's plain HTML/CSS/JS. Open `index.html` in a browser, or serve the folder:
 
 ```sh
 python3 -m http.server 8000
@@ -32,6 +32,10 @@ python3 -m http.server 8000
 ```
 
 ## Deploying (GitHub Pages)
+
+Push changes to Forgejo (`origin`). Its mirror updates GitHub, which publishes
+the site through GitHub Pages. Do not push only to GitHub: the mirror can
+overwrite those changes.
 
 Settings → Pages → Build from branch → `main` / root. Served at the custom
 domain in `CNAME` (marqueereader.app); the `.nojekyll` file makes Pages serve
